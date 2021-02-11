@@ -12,6 +12,11 @@
 </head>
 <body class="mat-typography">
   aaaa
+  <script>
+    const path = window.location.pathname.slice(1);
+    localStorage.setItem('path', path);
+    window.location.href='../';
+</script>
   <app-root></app-root>
 </body>
 </html>
